@@ -1,0 +1,17 @@
+#main{
+    
+    background-color: skyblue;
+}
+#bu{
+    border-radius: 50%;
+    background: navajowhite;
+    height: 25px;
+    width: 125px;
+    font-size: medium;
+    font-style: inherit;
+}
+#main:hover #bu {
+    animation: changebu 1s 15;
+    background: rgb(41, 115, 146);
+    box-shadow: 3px 3px 5px black;
+}
